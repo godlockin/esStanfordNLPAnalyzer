@@ -45,6 +45,8 @@ Well, there is only one choice for me, build a fitful plugin to make it done. :)
 ### install by archive file
 1. download the release file
 2. untar into ES plugin folder
+3. cp the stanford-*.jar files into this folder
+4. also, download the stanford-chinese-corenlp-models-current.jar into this folder as it's too large to upload
 3. restart the ES and enjoy
  
 ## Quick Example
