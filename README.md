@@ -30,6 +30,8 @@ and found that It seems not to have a stable project which could provide this re
 Well, there is only one choice for me, build a fitful plugin to make it done. :)
 
 ## Use?
+
+### install by git
 1. I suppose your machine has prepared the Java JDK 8, Maven, Git .etc
 2. git clone this project
 3. maven package this project `mvn clean install -e -U`
@@ -40,6 +42,11 @@ Well, there is only one choice for me, build a fitful plugin to make it done. :)
     1. commons-logging-1.2.jar
 4. restart the ES and enjoy
 
+### install by archive file
+1. download the release file
+2. untar into ES plugin folder
+3. restart the ES and enjoy
+ 
 ## Quick Example
 1. Create an index
 ```bash
