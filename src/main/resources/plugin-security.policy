@@ -1,0 +1,5 @@
+grant {
+  // needed because of the hot reload functionality
+  permission java.lang.RuntimePermission "*";
+  permission java.lang.reflect.ReflectPermission "*";
+};
